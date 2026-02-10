@@ -172,23 +172,6 @@ class LigandPostprocessor:
                 except Exception:
                     pass
             else:pass    
-                
-               
-                
-    
-def about():
-    print("""
-  _____                    _____ _____ _______ 
- |  __ \                  / ____|  __ \__   __|
- | |  | |_ __ _   _  __ _| |  __| |__) | | |   
- | |  | | '__| | | |/ _` | | |_ |  ___/  | |   
- | |__| | |  | |_| | (_| | |__| | |      | |   
- |_____/|_|   \__,_|\__, |\_____|_|      |_|   
-                     __/ |                     
-                    |___/                      
- A generative drug design model based on GPT2
-    """)
-
 
 # Function to read in FASTA file
 def read_fasta_file(file_path):
@@ -206,7 +189,6 @@ def read_fasta_file(file_path):
 
                     
 if __name__ == "__main__":
-    about()
     warnings.filterwarnings('ignore')
     
     if platform.system() == "Linux":
