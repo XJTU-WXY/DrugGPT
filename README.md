@@ -10,16 +10,6 @@
         <img src="https://img.shields.io/github/stars/LIYUESEN/ProLigGPT?style=social">
 </div>
 
-## 💥 NEWS
-**2024/08/11** We're excited to announce a new feature, Ligand Energy Minimization, now available in our latest release. Additionally, explore our new tool, druggpt_min_multi.py, designed specifically for efficient energy minimization of multiple ligands.  
-**2024/07/30** All wet-lab validations have been completed, confirming that DrugGPT possesses ligand optimization capabilities.  
-**2024/05/16** Wet-lab experiments confirm druggpt's ability to design ligands with new scaffolds from scratch and to repurpose existing ligands. Ligand optimization remains under evaluation. Stay tuned for more updates!  
-**2024/05/16** The version has been upgraded to druggpt_v1.2, featuring new atom number control capabilities. Due to compatibility issues, the webui has been removed.  
-**2024/04/03** Version upgraded to druggpt_v1.1, enhancing stability and adding a webui. Future versions will feature atom number control in molecules. Stay tuned.  
-**2024/03/31** After careful consideration, I plan to create new repositories named druggpt_toolbox and druggpt_train to store post-processing tool scripts and training scripts, respectively. This repository should focus primarily on the generation of drug candidate molecules.  
-**2024/03/31** I've decided to create a branch named druggpt_v1.0 for the current version since it is a stable release. Subsequently, I will continue to update the code.  
-**2024/01/18** This project is now under experimental evaluation to confirm its actual value in drug research. Please continue to follow us!  
-
 ## 🚩 Introduction
 ProLigGPT presents a ligand design strategy based on the autoregressive model, GPT, focusing on chemical space exploration and the discovery of ligands for specific proteins. Deep learning language models have shown significant potential in various domains including protein design and 
 biomedical text analysis, providing strong support for the proposition of ProLigGPT. 
